@@ -1,22 +1,4 @@
-// Example: Improved typing display effect (like the one in your SVG)
-const displayTypingEffect = async (message, text) => {
-    const { key } = await message.reply('▱');
-    for (const char of text) {
-        await new Promise(resolve => setTimeout(resolve, 100));
-        await message.client.sendMessage(message.from, {
-            text: char,
-            edit: key
-        });
-    }
-};
-
-// Example: Better message formatting with headers and footers
-const formatMessage = (title, content) => {
-    return `╔═══《 ${title} 》═══╗\n` +
-           `║ ${content}\n` +
-           `╚════════════════╝`;
-};
-
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=15F78A&background=287AFF00&width=450&height=70&lines=I+AM+Nexo+Bot;Multi-device+Whatsapp+Bot;UNC+Hacking+Team" alt="Typing SVG" /></a>
  
  <p align="center">
 <a href="https://github.com/DarkWinzo/Queen-MD"><img align="center" src="https://github-cardname.caliph.my.id/api?name=Queen&description=Hello,%20I%20am%20Queen%20MD.%20I%20am%20First%20Multi-device%20Whatsapp%20%Sinhala20Bot,%20You%20Can%20Deploy%20Me%20%20%20enjoy%20Futures&image=https://i.ibb.co/jZkzpw2/Queen.jpg&backgroundColor=%23ecf0f1&instagram=@darkWinzo&github=DarkWinzo&pattern=ticTacToe&colorPattern=%23eaeaea&site=youtube.com/DarkWinzo"/></a>
