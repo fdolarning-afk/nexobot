@@ -1,4 +1,21 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=15F78A&background=287AFF00&width=450&height=70&lines=I+AM+Nexo+Bot;Multi-device+Whatsapp+Bot;UNC+Hacking+Team" alt="Typing SVG" /></a>
+// Example: Improved typing display effect (like the one in your SVG)
+const displayTypingEffect = async (message, text) => {
+    const { key } = await message.reply('▱');
+    for (const char of text) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+        await message.client.sendMessage(message.from, {
+            text: char,
+            edit: key
+        });
+    }
+};
+
+// Example: Better message formatting with headers and footers
+const formatMessage = (title, content) => {
+    return `╔═══《 ${title} 》═══╗\n` +
+           `║ ${content}\n` +
+           `╚════════════════╝`;
+};
 
  
  <p align="center">
