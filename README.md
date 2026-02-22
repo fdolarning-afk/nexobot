@@ -1,6 +1,5 @@
 
-<div align="center">
-<[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F70000&background=287AFF00&width=450&height=70&lines=I+AM+Nexo+Bot;Multi-device+Whatsapp+Bot;UNC+Hacking+Team)](https://git.io/typing-svg) /></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F70000&background=287AFF00&width=450&height=70&lines=I+AM+Nexo+Bot;Multi-device+Whatsapp+Bot;UNC+Hacking+Team)](https://git.io/typing-svg)
 
  
  <p align="center">
